@@ -1,0 +1,7 @@
+public class Learn Java {
+    public static void main (string[] args){
+
+        System.out.println("WE'RE GONNA DO IT BABYYYYYYY");
+
+    }
+}
