@@ -38,7 +38,6 @@ for (int i = 0; i < gameTitles.length; i++) {
     System.out.println((i + 1) + ". " + gameTitles[i]);
 }
 System.out.println();
-main(null);
 }
 
 else if (menuSelection == 2) {
@@ -98,6 +97,5 @@ for (int i = 0; i < gameTitles.length; i++) {
 if (!found) {
     System.out.println("That game title does not exist.");
 }
-main(null);
 } // This bracket closes the searchForAgame method.
 }
