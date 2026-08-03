@@ -24,7 +24,7 @@ userChoice = input.nextInt();
 if (userChoice == 1) {
     System.out.println();
     int i = 0;
-    while (i <= grades.length) {
+    while (i < grades.length) {
     System.out.println(grades[i]);
     i++;
 } // Closes while loop
