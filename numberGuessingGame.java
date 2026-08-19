@@ -13,8 +13,9 @@ int userGuess = input.nextInt();
 
 while (userGuess != secretNumber) {
 	if (userGuess > secretNumber) {
-		System.out.println("Too high!")
-
+		System.out.println("Too high!");
+			else if (userGuess < secretNumber) {
+				System.out.println("Too low!");
 } // Closes if
 	} // Closes the main method
 } // Closes the class
