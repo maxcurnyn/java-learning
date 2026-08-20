@@ -2,13 +2,12 @@ import java.util.Scanner;
 public class numberGuessingGame {
 	public static void main(String[] args) {
 
-int userGuess = 0;
+int userGuess = 999;
 
 //int secretNumber = 42;
 
-double secretNumber = (Math.random() * 10); //Generates a random decimal value between 0 and 1 AND multiplies it by 10 before checking if it can evenly be divided by 1 
+int secretNumber = (int) (Math.random() * 10 + 1); // I've never done the (int) thing before. It's called... Type casting? Converting one variable type to another. This basically tells the program to convert the double value produced by the Math.random part to an int instead of a double. Well, not really "convert"... It just chops off anything after the decimal. So 7.42 would turn into 7, 4.99 would turn into 4, etc. 
 System.out.println(secretNumber);
-
 
 Scanner input = new Scanner(System.in);
 System.out.println();
